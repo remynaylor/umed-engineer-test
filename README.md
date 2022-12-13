@@ -62,8 +62,8 @@ A User story for this feature would read like this:
 
 ```
 As a member of the uMed operations team
-I need to be able to configure an email to be sent at a specific time and day, to patients on a study.
-Also, the full content of any emails sent must be attached to the patient so we know who has received a communication.
+I need to be able to configure an email to be sent to patients on a study.
+Also, the full content of any emails sent must be attached to the patient so we know who has received a communication and when.
 ```
 
 ## Things to think about
