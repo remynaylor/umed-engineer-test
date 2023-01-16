@@ -13,8 +13,9 @@ To get started clone the respository then run:
 ```bash
 poetry install
 poetry shell
+python manage.py migrate
 python manage.py loaddata care_providers.yaml users.yaml studies.yaml patients.yaml
-pytest  # runs tests
+python manage.py test  # runs tests
 ```
 
 * It uses sqlite for convenience

@@ -51,4 +51,5 @@ class PatientFactory(DjangoModelFactory):
         model = Patient
 
     user = SubFactory(UserFactory)
-    study = SubFactory(Study)
+    study = SubFactory(StudyFactory)
+    care_provider = SubFactory(CareProviderFactory)

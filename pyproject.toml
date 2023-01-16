@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.9"
 Django = "^4.1.4"
 PyYAML = "^6.0"
+django-simple-history = "^3.2.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.0"
